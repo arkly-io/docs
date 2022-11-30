@@ -9,7 +9,7 @@ const config = {
   title: 'Arkly',
   tagline: 'Professional Digital Archives Management Service',
   url: 'https://github.com/arkly-io',
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
