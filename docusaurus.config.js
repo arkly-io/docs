@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
     title: "Arkly",
     tagline: "Decentralized Archival Storage Platform",
-    url: "https://arkly.github.io",
+    url: "https://arkly-io.github.io",
     baseUrl: "/",
 
     onBrokenLinks: "warn",
@@ -17,14 +17,14 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "arkly", // Usually your GitHub org/user name.
+    organizationName: "arkly-io", // Usually your GitHub org/user name.
 
     // Usually your repo name.
     projectName: "docs",
 
     // This needs to be explicit as a config field or environment variable for projects not
     // ending .github.io.
-    deploymentBranch: "gh-pages",
+    deploymentBranch: "d2mightysaurus",
 
     trailingSlash: false,
     // Even if you don't use internalization, you can use this field to set useful
