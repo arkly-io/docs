@@ -9,7 +9,7 @@ const config = {
     title: "Arkly",
     tagline: "Decentralized Archival Storage Platform",
     url: "https://arkly-io.github.io",
-    baseUrl: "/",
+    baseUrl: "/docs/",
 
     onBrokenLinks: "warn",
     onBrokenMarkdownLinks: "warn",
@@ -24,7 +24,7 @@ const config = {
 
     // This needs to be explicit as a config field or environment variable for projects not
     // ending .github.io.
-    deploymentBranch: "gh-pages",
+    // deploymentBranch: "gh-pages",
 
     trailingSlash: false,
     // Even if you don't use internalization, you can use this field to set useful
@@ -35,15 +35,7 @@ const config = {
         locales: ["en"],
     },
 
-    plugins: [
-        [
-            require.resolve("@cmfcmf/docusaurus-search-local"),
-            {
-                // whether to index blog pages
-                indexBlog: false,
-            },
-        ],
-    ],
+    plugins: [[require.resolve("@cmfcmf/docusaurus-search-local")]],
 
     presets: [
         [
@@ -54,14 +46,6 @@ const config = {
                     sidebarPath: require.resolve("./sidebars.js"),
                     routeBasePath: "/",
                 },
-                blog: false,
-                // blog: {
-                //   showReadingTime: true,
-                //   // Please change this to your repo.
-                //   // Remove this to remove the "edit this page" links.
-                //   editUrl:
-                //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                // },
                 theme: {
                     customCss: require.resolve("./src/css/custom.css"),
                 },
