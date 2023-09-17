@@ -35,7 +35,15 @@ const config = {
         locales: ["en"],
     },
 
-    plugins: [[require.resolve("@cmfcmf/docusaurus-search-local")]],
+    plugins: [
+        [
+            require.resolve("@cmfcmf/docusaurus-search-local"),
+            {
+                // whether to index blog pages
+                indexBlog: false,
+            },
+        ],
+    ],
 
     presets: [
         [
