@@ -9,7 +9,7 @@ const config = {
     title: "Arkly",
     tagline: "Decentralized Archival Storage Platform",
     url: "https://arkly-io.github.io",
-    baseUrl: "/docs/",
+    baseUrl: "/",
 
     onBrokenLinks: "warn",
     onBrokenMarkdownLinks: "warn",
@@ -24,7 +24,7 @@ const config = {
 
     // This needs to be explicit as a config field or environment variable for projects not
     // ending .github.io.
-    // deploymentBranch: "gh-pages",
+    deploymentBranch: "d2mightysaurus",
 
     trailingSlash: false,
     // Even if you don't use internalization, you can use this field to set useful
