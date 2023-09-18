@@ -24,7 +24,7 @@ const config = {
 
     // This needs to be explicit as a config field or environment variable for projects not
     // ending .github.io.
-    deploymentBranch: "d2mightysaurus",
+    deploymentBranch: "gh-pages",
 
     trailingSlash: false,
     // Even if you don't use internalization, you can use this field to set useful
